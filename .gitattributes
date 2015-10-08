@@ -1,0 +1,19 @@
+# Set the default behavior, in case people don't have core.autocrlf set
+* text=auto
+
+# Explicitly declare files that should always be normalized and converted to native line endings on checkout
+*.html text
+*.js text
+*.css text
+*.md text
+
+# Explicitly declare files that should to be handled as binaries
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.png binary
+*.ttf binary
+*.eof binary
+*.eot binary
+*.pdf binary
+*.zip binary
